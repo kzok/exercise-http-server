@@ -1,0 +1,6 @@
+[submodule "deps/libuv"]
+	path = deps/libuv
+	url = https://github.com/libuv/libuv.git
+[submodule "deps/uvw"]
+	path = deps/uvw
+	url = https://github.com/skypjack/uvw.git
