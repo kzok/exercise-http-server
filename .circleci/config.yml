@@ -1,0 +1,17 @@
+version: 2
+
+jobs:
+  test:
+    docker:
+      - image: gcc:7
+    steps:
+      - checkout
+      - run: apt update -y && apt install -y cmake lcov
+      - run: git submodule sync && git submodule update --init
+      - run: ./run_tests.sh
+
+workflows:
+  version: 2
+  test:
+    jobs:
+      - test
