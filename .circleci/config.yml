@@ -8,7 +8,8 @@ jobs:
       - checkout
       - run: apt update -y && apt install -y cmake lcov
       - run: git submodule sync && git submodule update --init
-      - run: ./run_tests.sh
+      - run: ./run_tests.sh && cp build/lcov.info .
+      - run: bash <(curl -s https://codecov.io/bash)
 
 workflows:
   version: 2
