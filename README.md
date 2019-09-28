@@ -1,5 +1,7 @@
 # Exercise - HTTP Server
 
+[![CircleCI](https://circleci.com/gh/kzok/exercise-http-server.svg?style=shield)](https://circleci.com/gh/kzok/exercise-http-server)
+
 ## Overview
 
 Http server repository as an exercise of using [libuv](https://github.com/libuv/libuv).
