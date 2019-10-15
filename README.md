@@ -1,6 +1,6 @@
 # Exercise - HTTP Server
 
-[![CircleCI](https://circleci.com/gh/kzok/exercise-http-server.svg?style=shield)](https://circleci.com/gh/kzok/exercise-http-server)
+[![CircleCI](https://circleci.com/gh/kzok/exercise-http-server.svg?style=shield)](https://circleci.com/gh/kzok/exercise-http-server) [![codecov](https://codecov.io/gh/kzok/exercise-http-server/branch/master/graph/badge.svg)](https://codecov.io/gh/kzok/exercise-http-server)
 
 ## Overview
 
