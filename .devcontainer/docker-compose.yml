@@ -6,3 +6,6 @@ services:
     volumes:
       - ../:/workspace:cached
     command: sleep infinity
+    ports:
+      - "10080:10080"
+    restart: always
