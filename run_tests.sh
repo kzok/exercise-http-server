@@ -9,6 +9,6 @@ make run_tests
 ./run_tests
 rm -fr ./lcov.info ../coverage
 mkdir -p ../coverage
-lcov -c -d . -o ./lcov.info
-lcov -r ./lcov.info */deps/* */test/* */c++/* -o ./lcov.info
+lcov -c -d . -o ./lcov.info > /dev/null
+lcov -r ./lcov.info */deps/* */test/* */c++/* -o ./lcov.info > /dev/null
 genhtml -o ../coverage ./lcov.info
