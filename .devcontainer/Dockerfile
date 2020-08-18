@@ -18,7 +18,7 @@ RUN apt-get update \
     && export DEBIAN_FRONTEND=noninteractive \
     #
     # Install C++ tools
-    && apt-get -y install build-essential cmake cppcheck valgrind lcov clang-format \
+    && apt-get -y install locales-all build-essential cmake cppcheck valgrind lcov clang-format \
     #
     # [Optional] Update UID/GID if needed
     && if [ "$USER_GID" != "1000" ] || [ "$USER_UID" != "1000" ]; then \
